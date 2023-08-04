@@ -70,8 +70,8 @@
 
     - name: Re-create a Spring container
       docker_container:
-        name: khalid-springboot
-        image: khaliddinh/springboot
+        name: longnh2002-springboot
+        image: longnh2002/springboot
         networks:
           - name: test
             aliases:
